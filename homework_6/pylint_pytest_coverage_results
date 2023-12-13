@@ -1,0 +1,29 @@
+(Unit-tests-Python) PS C:\Users\User\Desktop\Geek Brains\21 Unit-тесты\Unit-tests-Python> pylint .\homework_6\test_lists_averages.py
+homework_6\test_lists_averages.py:61:51: W0621: Redefining name 'not_numbers_list' from outer scope (line 26) (redefined-outer-name)
+
+------------------------------------------------------------------
+Your code has been rated at 8.00/10 (previous run: 8.00/10, +0.00)
+
+
+============================= test session starts =============================
+collecting ... collected 6 items
+
+test_lists_averages.py::test_first_bigger PASSED                         [ 16%]
+test_lists_averages.py::test_second_bigger PASSED                        [ 33%]
+test_lists_averages.py::test_averages_equal PASSED                       [ 50%]
+test_lists_averages.py::test_empty_list PASSED                           [ 66%]
+test_lists_averages.py::test_first_list_with_not_numbers PASSED          [ 83%]
+test_lists_averages.py::test_second_list_with_not_numbers PASSED         [100%]
+
+============================== 6 passed in 0.07s ==============================
+
+Process finished with exit code 0
+
+
+(Unit-tests-Python) PS C:\Users\User\Desktop\Geek Brains\21 Unit-тесты\Unit-tests-Python\homework_6> coverage report -m
+Name                     Stmts   Miss  Cover   Missing
+------------------------------------------------------
+lists_averages.py           34      0   100%
+test_lists_averages.py      40      0   100%
+------------------------------------------------------
+TOTAL                       74      0   100%
